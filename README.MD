@@ -3,6 +3,6 @@ To run this app you will need to get some properties in .enviroment (.env), thes
 
 ```sh
 # Mongodb
-ATLAS_URI=<YOUR URL FROM MONGODB>
+ATLAS_URL=<YOUR URL FROM MONGODB>
 DB_NAME=<YOUR DATABASE NAME>
 ```
