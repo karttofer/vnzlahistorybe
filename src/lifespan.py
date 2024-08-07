@@ -8,9 +8,7 @@ config = dotenv_values(".env")
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    app.mongodb_client = AsyncIOMotorClient(
-        "mongodb+srv://monodeveloper:3KlROQiNYuVk1iGB@developmentclouster.ecqatph.mongodb.net/?retryWrites=true&w=majority&appName=DevelopmentClouster"
-    )
+    app.mongodb_client = AsyncIOMotorClient(config["ATLAS_URL"])
     app.database = app.mongodb_client["sample_mflix"]
 
     yield
