@@ -7,4 +7,4 @@ ATLAS_URI=<YOUR URL FROM MONGODB>
 DB_NAME=<YOUR DATABASE NAME>
 ```
 # Initial AWS Architecture
-![venezuela-cloud-diagram drawio](https://github.com/user-attachments/assets/1ad844bb-7e1c-4bbb-9dbb-906bfcb271de)
+![venezuela-cloud-diagram drawio (1)](https://github.com/user-attachments/assets/1f1e37e1-a5e5-45fd-8790-3b591dce2dd2)
